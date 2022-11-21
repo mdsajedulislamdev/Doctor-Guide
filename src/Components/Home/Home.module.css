@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Roboto:wght@900&display=swap");
+
+.row {
+  width: 100vw;
+  min-height: 45vw;
+  overflow: hidden;
+  width: fit-content;
+}
+.leftContent {
+  position: absolute;
+  width: 378px;
+  min-height: fit-content;
+  left: 180px;
+  top: 300px;
+}
+.paragraph {
+  font-size: 17px;
+  font-family: lato, sans-serif;
+  word-break: break-all;
+}
+.leftContent h1 {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 60px;
+}
+.button {
+  width: 243px;
+  height: 56px;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  background: #ff8b42;
+  border-radius: 6px;
+  transition: 0.2s ease-in-out;
+}
+.button:hover {
+  background: #ff680a;
+}
+.leftContent .gridOne {
+  position: absolute;
+  width: 120px;
+  top: -150px;
+  left: 0px;
+}
+.leftContent .gridTwo {
+  position: absolute;
+  width: 120px;
+  top: 240px;
+  left: 380px;
+  z-index: 1;
+}
+.sideDesign {
+  width: 100px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 150px;
+}
+
+/*======================Left Image Section========================== */
+.leftSection img {
+  width: 270px;
+  display: block;
+}
+.leftSection img:nth-child(2) {
+  margin-top: 3px;
+}
+.leftSection {
+  position: absolute;
+  left: 650px;
+  top: 150px;
+}
+.leftSection .DoctorOne {
+  position: absolute;
+  width: 320px;
+  top: 5px;
+  left: -13px;
+}
+
+/*======================Right Image Section========================== */
+.rightSection img {
+  width: 270px;
+  display: block;
+}
+.rightSection img:nth-child(2) {
+  margin-top: 3px;
+}
+.rightSection {
+  position: absolute;
+  right: 110px;
+  top: 180px;
+}
+.rightSection .DoctorTwo {
+  position: absolute;
+  width: 340px;
+  top: -71px;
+  left: -20px;
+}
+
+/* ====================Responsive Area=================== */
+@media only screen and (max-width: 600px) {
+  .row {
+    width: 100vw;
+    height: 50vw;
+    width: fit-content;
+    overflow: hidden;
+  }
+  .leftContent {
+    width: fit-content;
+  }
+  .sideDesign {
+    position: absolute;
+    width: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 50px;
+  }
+  .leftContent {
+    position: absolute;
+    width: 200px;
+    min-height: fit-content;
+    left: 20px;
+    top: 100px;
+  }
+  .paragraph {
+    width: 115px;
+    font-size: 8px;
+    font-family: lato, sans-serif;
+    text-align: left;
+    word-break: keep-all;
+  }
+  .leftContent h1 {
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .button {
+    width: 100px;
+    height: 20px;
+    font-weight: 500;
+    font-size: 8px;
+    border-radius: 3px;
+    transition: 0.2s ease-in-out;
+  }
+  .button:hover {
+    background: #ff680a;
+  }
+  .leftContent .gridOne {
+    position: absolute;
+    width: 35px;
+    top: -49px;
+    left: 6px;
+  }
+  .leftContent .gridTwo {
+    position: absolute;
+    width: 35px;
+    top: 83px;
+    left: 120px;
+    z-index: 1;
+  }
+  /* ==============Responsiveness Left Image Section==Max=600px============= */
+  .leftSection img:nth-child(1) {
+    width: 80px;
+    height: 40px;
+    display: block;
+  }
+  .leftSection img:nth-child(2) {
+    width: 80px;
+    height: 110px;
+    display: block;
+  }
+  .leftSection img:nth-child(2) {
+    margin-top: 3px;
+  }
+  .leftSection {
+    position: absolute;
+    left: 150px;
+    top: 50px;
+  }
+  .leftSection .DoctorOne {
+    position: absolute;
+    width: 85px;
+    height: 145px;
+    top: 8px;
+    left: 1px;
+  }
+  /* ===============Responsiveness Right image section==max=600px======================= */
+  .rightSection img:nth-child(1) {
+    width: 80px;
+    height: 100px;
+    display: block;
+  }
+  .rightSection img:nth-child(2) {
+    width: 80px;
+    height: 45px;
+    display: block;
+  }
+  .rightSection img:nth-child(2) {
+    margin-top: 3px;
+  }
+  .rightSection {
+    position: absolute;
+    left: 250px;
+    top: 60px;
+  }
+  .rightSection .DoctorTwo {
+    position: absolute;
+    width: 90px;
+    height: 170px;
+    top: -22px;
+    left: -5px;
+  }
+}
